@@ -10,6 +10,8 @@ struct Mhs
 };
 Mhs *head, *tail, *baru, *cur, *del;
 
+
+// create data
 void create()
 {
 	head = new Mhs;
@@ -22,6 +24,7 @@ void create()
 	tail = head;
 }
 
+// addFirst
 void addF(){
 	baru = new Mhs;
 	cout << " Nama  : "; cin >> baru->nama;
@@ -34,6 +37,7 @@ void addF(){
 	
 }
 
+// Tambah data atau Buat data
 void createAddF(){
 	if(head == NULL){
 		create();
@@ -42,7 +46,7 @@ void createAddF(){
 	}
 }
 
-
+// addLast
 void addLast()
 {
 	baru = new Mhs;
@@ -74,7 +78,7 @@ void removeLast(){
 	delete del;
 }
 
-
+// display
 void display()
 {
 	if(head == NULL){
