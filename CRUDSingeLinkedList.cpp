@@ -111,6 +111,7 @@ int main()
 	    cout<<"| 4. Del first\t\t\t\t|\n";
 	    cout<<"| 5. Del last\t\t\t\t|\n";
 	    cout<<"| 9. Exit\t\t\t\t|\n";
+		cout<<"| https://github.com/rahmathidayatlubis |\n";
 	    cout<<"%---------------------------------------%\n";
 	    
 	    cout<<" Pilih : "; cin>>pil;
